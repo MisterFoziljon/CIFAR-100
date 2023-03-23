@@ -1,9 +1,9 @@
 ## CIFAR-100 dataseti yordamida 100 ta obyektni qaysi klassga tegishli ekanligini bashorat qilish
 
 #### 1. ```CIFAR-100``` dataseti haqida qisqacha ma'lumot
-```CIFAR-100``` dataseti - 100 ta turdagi 60 000 ta tasvirni o'z ichiga olgan ma'lumotlar to'plami hisoblanadi. Har bir tasvir 32x32 piksel o'lchamli bo'ladi. Tasvir lar ikkiga bo'linadi: 50000 ta o'qitish (```train data```) tasvir va 10 000 (```test data```) ta sinov tasvir. Har bir tasvir, 100 ta kategoriya (turga) bo'yicha belgilangan. 100 ta kategoriya, 20 ta yuqori darajali kategoriya bo'yicha tuzilgan. Har bir yuqori darajali kategoriya, 5 ta kichik turdagi kategoriyalarni o'z ichiga oladi.
+```CIFAR-100``` dataseti - 100 ta turdagi 60 000 ta tasvirni o'z ichiga olgan ma'lumotlar to'plami hisoblanadi. Har bir tasvir 32x32 piksel o'lchamga va 3 ta qatlamli rang kanali(```RGB```)ga ega. ```CIFAR-100``` datasetidagi tasvirlar ikkiga bo'linadi: 50 000 ta o'qitish (```train data```) tasvir va 10 000 ta sinov (```test data```) tasvir. Har bir tasvir, 100 ta kategoriya bo'yicha taqsimlangan. 100 ta kategoriya, 20 ta yuqori darajali kategoriya(```superclass```) bo'yicha tuzilgan. Har bir yuqori darajali kategoriya, 5 ta kichik turdagi kategoriya(```fine class```)larni o'z ichiga oladi.
 
-```CIFAR-100``` dataseti uchun 20 ta yuqori darajali (```superclass```) kategoriyalar va 100 ta kichik turdagi (```fine class```) kategoriyalar quyidagicha:
+```CIFAR-100``` dataseti uchun 20 ta yuqori darajali kategoriyalar (```superclass```) va 100 ta kichik turdagi kategoriyalar (```fine class```) quyidagi jadvalda keltirib o'tilgan:
 
 | Superclass             | Fine Classes                            |
 |------------------------|----------------------------------------|
@@ -74,10 +74,10 @@
   
 ![streamlit1](https://github.com/MisterFoziljon/CIFAR-100/blob/main/rasmlar/accuracy_and_loss.png)
   
-  * ```Modelni sinovdan o'tkazish.ipynb``` ni ishga tushiring. Ushbu notebook yordamida saqlangan modelni load qilish va yangi test qilish datalari yordamida bashorat qilish (predict) ko'rsatib o'tilgan.
+  * Bundan tashqari ushbu notebook yordamida saqlangan modelni load qilish va yangi test qilish datalari yordamida bashorat qilish (predict) ko'rsatib o'tilgan.
 
 
-#### 4. Proyektni streamlit yordamida deploy qilish.
+#### 5. Proyektni streamlit yordamida deploy qilish.
 
         (sizning_env) C:\CIFAR-100> streamlit run CIFAR-100.py
 
