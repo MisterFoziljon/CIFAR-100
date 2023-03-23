@@ -47,14 +47,14 @@ Yaqinda Zalando elektron tijorat kompaniyasi tadqiqotchilari ```Fashion MNIST```
         
   * ```CNN yordamida model o'qitish.ipynb``` ni ishga tushiring. Usbu notebookda Keras.io saytidagi MNIST datasetini o'qib olish, uni train va test datalariga ajratish, datalarni size va shape larini train uchun moslash hamda normallashtirish ko'rsatilgan. Dataset yordamida Convolutional Neural Network ishlab chiqilgan va u yordamida model train va evaluate qilingan. Model h5 formatda saqlanadi. Ushbu notebookni birinchi bo'lib ishga tushirib ```modelni qayta o'qiting```!!! Chunki model githubga yuklanmadi.
   
-![streamlit1](https://github.com/MisterFoziljon/CIFAR-100/blob/main/rasmlar/graphic.png)
+![streamlit1](https://github.com/MisterFoziljon/CIFAR-100/blob/main/rasmlar/accuracy_and_loss.png)
   
   * ```Modelni sinovdan o'tkazish.ipynb``` ni ishga tushiring. Ushbu notebook yordamida saqlangan modelni load qilish va yangi test qilish datalari yordamida bashorat qilish (predict) ko'rsatib o'tilgan.
 
 
 #### 4. Proyektni streamlit yordamida deploy qilish.
 
-        (sizning_env) C:\CIFAR-100> streamlit run FashionMNIST.py
+        (sizning_env) C:\CIFAR-100> streamlit run CIFAR-100.py
 
   * Proyekt ```local server```da ishga tushadi va quyidagicha ko'rinishda bo'ladi:
 
