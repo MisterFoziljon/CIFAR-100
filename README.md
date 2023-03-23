@@ -1,7 +1,9 @@
 ## CIFAR-100 dataseti yordamida 100 ta obyektni qaysi klassga tegishli ekanligini bashorat qilish
 
 #### 1. ```CIFAR-100``` dataseti haqida qisqacha ma'lumot
-Yaqinda Zalando elektron tijorat kompaniyasi tadqiqotchilari ```Fashion MNIST```ni asl ```MNIST``` ma'lumotlar to'plamining o'rnini bosuvchi vosita sifatida taqdim etdilar. ```MNIST``` singari, ```Fashion MNIST``` ham 10 xil sinfga tegishli 60 000 ta o'quv tasvir(```train data```) va 10 000 ta sinov tasvir(```test data```)dan iborat to'plamidan iborat. Har bir o'quv misoli 28x28 o'lchamdagi kulrang kanalli rasmdir. Biz birinchi navbatda Fashion MNIST va MNIST o'rtasidagi farqlarni, shu jumladan har bir ma'lumot to'plamidagi modelning ishlashini ko'rib chiqamiz.
+```CIFAR-100``` dataseti - 100 ta turdagi 60 000 ta tasvirni o'z ichiga olgan ma'lumotlar to'plami hisoblanadi. Har bir tasvir 32x32 piksel o'lchamli bo'ladi. Tasvir lar ikkiga bo'linadi: 50000 ta o'qitish (```train data```) tasvir va 10 000 (```test data```) ta sinov tasvir. Har bir tasvir, 100 ta kategoriya (turga) bo'yicha belgilangan. 100 ta kategoriya, 20 ta yuqori darajali kategoriya bo'yicha tuzilgan. Har bir yuqori darajali kategoriya, 5 ta kichik turdagi kategoriyalarni o'z ichiga oladi.
+
+```CIFAR-100``` dataseti uchun 20 ta yuqori darajali (```superclass```) kategoriyalar va 100 ta kichik turdagi (```fine class```) kategoriyalar quyidagicha:
 
 | Superclass             | Fine Classes                            |
 |------------------------|----------------------------------------|
