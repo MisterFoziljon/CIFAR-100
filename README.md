@@ -84,7 +84,7 @@
   * Proyekt ```local server```da ishga tushadi va quyidagicha ko'rinishda bo'ladi:
 
 
-![streamlit1](https://github.com/MisterFoziljon/Fashion-MNIST/blob/main/rasmlar/streamlit1.png)
+![streamlit1](https://github.com/MisterFoziljon/Fashion-MNIST/blob/main/rasmlar/streamlit_main.png)
   
   * Rasm faylini yuklab oling va ```Predict``` tugmachasini bosing. Model yuklab olingan tasvirni qaysi turkumga tegishli ekanligini bashorat qiladi. Bundan tashqari softmaxdan chiqqan ehtimollik natijasi ham ekranga chiqadi.
 
