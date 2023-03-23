@@ -26,7 +26,7 @@ Yaqinda Zalando elektron tijorat kompaniyasi tadqiqotchilari ```Fashion MNIST```
 | Vehicles 1             | Bicycle, Bus, Motorcycle, Pickup Truck, Train |
 | Vehicles 2             | Lawn-mower, Rocket, Streetcar, Tank, Tractor |
 
-![cmd](https://github.com/MisterFoziljon/Fashion-MNIST/blob/main/rasmlar/dataset.png)
+![cmd](https://github.com/MisterFoziljon/CIFAR-100/blob/main/rasmlar/cifar100.png)
 
 #### 2. Loyihani yuklab olish uchun quyidagi ketma-ketlikni bajaring:
   * `windows+R` klavishlarini bosing va paydo bo'lgan oynaga `cmd` buyrug'ini yozing OK tugmachasini bosing.
