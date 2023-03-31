@@ -70,7 +70,7 @@
 
         (sizning_env) C:\CIFAR-100> jupyter notebook
         
-  * ```CNN yordamida model o'qitish.ipynb``` ni ishga tushiring. Usbu notebookda Keras.io saytidagi MNIST datasetini o'qib olish, uni train va test datalariga ajratish, datalarni size va shape larini train uchun moslash hamda normallashtirish ko'rsatilgan. Dataset yordamida Convolutional Neural Network ishlab chiqilgan va u yordamida model train va evaluate qilingan. Model h5 formatda saqlanadi. [Modelni yuklash]()
+  * ```CNN yordamida model o'qitish.ipynb``` ni ishga tushiring. Usbu notebookda Keras.io saytidagi MNIST datasetini o'qib olish, uni train va test datalariga ajratish, datalarni size va shape larini train uchun moslash hamda normallashtirish ko'rsatilgan. Dataset yordamida Convolutional Neural Network ishlab chiqilgan va u yordamida model train va evaluate qilingan. Model h5 formatda saqlanadi. [Modelni yuklash](https://drive.google.com/file/d/1lCXcILjaUIy5IbIJtGpiWwIyv_6BHXJ7/view?usp=share_link)
   
 ![streamlit1](https://github.com/MisterFoziljon/CIFAR-100/blob/main/rasmlar/accuracy_and_loss.png)
   
